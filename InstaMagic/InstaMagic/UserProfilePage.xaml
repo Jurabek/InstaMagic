@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="InstaMagic.UserProfilePage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <StackLayout>
+        <Label Text="{Binding UserInfo.Name}" />
+        <Label Text="{Binding UserInfo.Bio}" />
+        <Label Text="{Binding UserInfo.Website}" />
+        <Label Text="{Binding UserInfo.FullName}" />
+        <Image Source="{Binding UserInfo.ProfilePicture}" />
+    </StackLayout>
+</ContentPage>
