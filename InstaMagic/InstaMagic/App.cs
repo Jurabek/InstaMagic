@@ -72,8 +72,8 @@ namespace InstaMagic
 
             XamarinAuthSettings =
                 new OAuthSettings(
-                    clientId: "9713da66074c430aa16b679782d5304d",
-                    scope: "basic likes comments relationships ",
+                    clientId: "3a6339f8def84a52bea6685f5615f2ae",
+                    scope: "basic likes comments relationships follower_list public_content",
                     authorizeUrl: "https://api.instagram.com/oauth/authorize/",
                     redirectUrl: "http://192.168.31.1/InstaApiCallback/Instagram/Callback");
 
